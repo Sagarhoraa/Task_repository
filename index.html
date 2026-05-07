@@ -8,17 +8,42 @@
 </head>
 
 <body>
+    <!-- header details -->
     <header>
+        <img src="profile.jpg" alt="Sagar Adhikari profile image" width="150">
         <h1>Sagar Adhikari</h1>
         <p>Frontend Developer intern</p>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#address">Address</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>About me</h2>
-            <p>Currently doing internship at Graphilla Technology(2026)</p>
+        <!-- home section -->
+        <section id="home">
+            <h2>Welcome to my portfolio</h2>
+            <p>This is my personal portfolio website built using HTML.</p>
         </section>
-
-        <section>
+        <!-- about section -->
+        <section id="about">
+            <h2>About</h2>
+            <p><strong><span>Frontend developer</span></strong><br><br>Currently doing internship at Graphilla
+                Technology(2026).I code and create web elements for amazing
+                people around the world.<br> I like work with new people. New people new Experiences.</p>
+        </section>
+        <!-- address section -->
+        <section id="address">
             <h2>Address</h2>
             <address>
                 <strong>Permanent address:</strong> <br>
@@ -28,17 +53,36 @@
                 Damak-10,Jhapa
             </address>
         </section>
-
-        <section>
+        <!-- education section -->
+        <section id="education">
             <h2>Personal Educational Details</h2>
-                <ul>
-                    <li><strong>School:</strong>S S Niketan Higher Seconday School, Bhadrapur Jhapa</li>
-                    <li><strong>High School:</strong>Emerald Academy, Bhadrapur Jhapa</li>
-                    <li><strong>Campus:</strong>Mechi Multiple Campus, Bhadrapur Jhapa(Running)</li>
-                </ul>
+            <ul>
+                <li><strong>School:</strong>S S Niketan Higher Seconday School, Bhadrapur Jhapa</li>
+                <li><strong>High School:</strong>Emerald Academy, Bhadrapur Jhapa</li>
+                <li><strong>Campus:</strong>Mechi Multiple Campus, Bhadrapur Jhapa(Running)</li>
+            </ul>
         </section>
+        <!-- services section -->
+        <section id="services">
+            <h2>Services</h2>
+            <article>
+                <h3>Frontend Development</h3>
+                <p>Building responsive web pages using the HTML.</p>
+            </article>
 
-        <section>
+            <article>
+                <h3>UI Design</h3>
+                <p>Creating semantic design for website.</p>
+            </article>
+
+            <article>
+                <h3>Web Page Development</h3>
+                <p>Developing websites using HTML structure.</p>
+            </article>
+
+        </section>
+        <!-- projects section -->
+        <section id="projects">
             <h2>Projects</h2>
             <article>
                 <h3>Child Vaccination Management System</h3>
@@ -50,7 +94,39 @@
             </article>
         </section>
 
-        <section>
+        <!-- blogs section -->
+        <section id="blog">
+            <h2>Blog</h2>
+
+            <article>
+                <h3>Internship </h3>
+                <img src="blog1.jpeg" alt="HTML notes" width="250">
+                <p>Started learning HTML structure and semantic tags.</p>
+            </article>
+
+            <article>
+                <h3>Understanding Semantic HTML</h3>
+                <img src="blog2.jpeg" alt="HTML" width="250">
+                <p>Learned that semantic tags are important for structure and accessibility.</p>
+            </article>
+        </section>
+
+        <!-- testimonials section -->
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+
+            <article>
+                <p>"Good understanding of HTML structure."</p>
+                <strong>- Mentor</strong>
+            </article>
+
+            <article>
+                <p>"Fast learner and consistent."</p>
+                <strong>- Team Lead</strong>
+            </article>
+        </section>
+        <!-- hobbiess section -->
+        <section id="hobbies">
             <h2>Hobbies</h2>
             <ul>
                 <li>Dancing</li>
@@ -58,22 +134,27 @@
                 <li>Singing</li>
             </ul>
         </section>
-        <section>
+        <!-- contacts section -->
+        <section id="contact">
             <h2>Contact Me</h2>
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id= "name" name="name"><br>
+                <fieldset>
+                    <legend>Send Message</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id= "email" name="email"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
 
-                <label for="message">Message</label>
-                <textarea name="message" id="message"></textarea><br><br>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea><br><br>
 
-                <button type="submit">Submit</button>
+                    <button type="submit">Submit</button>
+                </fieldset>
 
             </form>
         </section>
+
     </main>
     <footer>
         <p>@Copyright sagar adhikari 2026</p>
