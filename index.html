@@ -4,162 +4,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- header details -->
-    <header>
-        <div><img src="profile.jpg" alt="Sagar Adhikari profile image" width="150"></div>
-        <h1>Sagar Adhikari</h1>
-        <p>Frontend Developer intern</p>
+    <div class="container">
+        <!-- header details -->
+        <header class="sidebar">
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#address">Address</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- home section -->
-        <section id="home">
-            <h2>Welcome to my portfolio</h2>
-            <p>This is my personal portfolio website built using HTML.</p>
-        </section>
-        <!-- about section -->
-        <section id="about">
-            <h2>About</h2>
-            <p><b><span>Frontend developer</span></b><br><br>Currently doing internship at Graphilla
-                Technology(2026).I code and create web elements for amazing
-                people around the world.<br> I like work with new people. New people new Experiences.</p>
-        </section>
-        <!-- address section -->
-        <section id="address">
-            <h2>Address</h2>
-            <address>
-                <strong>Permanent address:</strong> <br>
-                Bhadrapur-08, Jhapa
-                <br>
-                <strong>Current address:</strong><br>
-                Damak-10,Jhapa
-            </address>
-        </section>
-        <!-- education section -->
-        <section id="education">
-            <h2>Personal Educational Details</h2>
-            <ul>
-                <li><b>School:</b>S S Niketan Higher Seconday School, Bhadrapur Jhapa</li>
-                <li><b>High School:</b>Emerald Academy, Bhadrapur Jhapa</li>
-                <li><b>Campus:</b>Mechi Multiple Campus, Bhadrapur Jhapa(Running)</li>
-            </ul>
-        </section>
-        <!-- services section -->
-        <section id="services">
-            <h2>Services</h2>
-            <article>
-                <h3>Frontend Development</h3>
-                <p>Building responsive web pages using the HTML.</p>
-            </article>
+            <div class="sidebar__profile">
+                <img class="sidebar__image" src="profile.jpg" alt="Sagar Adhikari profile image" width="150">
+                <h1 class="sidebar__name">Sagar Adhikari</h1>
+            </div>
 
-            <article>
-                <h3>UI Design</h3>
-                <p>Creating semantic design for website.</p>
-            </article>
+            <nav class="sidebar__nav">
+    <ul class="sidebar__menu">
 
-            <article>
-                <h3>Web Page Development</h3>
-                <p>Developing websites using HTML structure.</p>
-            </article>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#home">
+                <span class="material-symbols-outlined">home</span>
+                <span class="sidebar__text">Home</span>
+            </a>
+        </li>
 
-        </section>
-        <!-- projects section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <h3>Child Vaccination Management System</h3>
-                <p>It is a web application that helps to manage the vaccination of children.</p>
-            </article>
-            <article>
-                <h3>Online Food Delivery System</h3>
-                <p>a web application that helps to manage the online food delivery system.</p>
-            </article>
-        </section>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#about">
+                <span class="material-symbols-outlined">chat_info</span>
+                <span class="sidebar__text">About</span>
+            </a>
+        </li>
 
-        <!-- blogs section -->
-        <section id="blog">
-            <h2>Blog</h2>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#service">
+                <span class="material-symbols-outlined">home_repair_service</span>
+                <span class="sidebar__text">Service</span>
+            </a>
+        </li>
 
-            <article>
-                <h3>Internship </h3>
-                <div><img src="blog1.jpeg" alt="Internship" width="250"></div>
-                <p>Started learning HTML structure and semantic tags.</p>
-            </article>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#portfolio">
+                <span class="material-symbols-outlined">business_center</span>
+                <span class="sidebar__text">Portfolio</span>
+            </a>
+        </li>
 
-            <article>
-                <h3>Understanding Semantic HTML</h3>
-                <div><img src="blog2.jpeg" alt="HTML" width="250"></div> 
-                <p>Learned that semantic tags are important for structure and accessibility.</p>
-            </article>
-        </section>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#testimonials">
+                <span class="material-symbols-outlined">format_quote</span>
+                <span class="sidebar__text">Testimonials</span>
+            </a>
+        </li>
 
-        <!-- testimonials section -->
-        <section id="testimonials">
-            <h2>Testimonials</h2>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#blog">
+                <span class="material-symbols-outlined">article_shortcut</span>
+                <span class="sidebar__text">Blog</span>
+            </a>
+        </li>
 
-            <article>
-                <p>"Good understanding of HTML structure."</p>
-                <strong>- Mentor</strong>
-            </article>
+        <li class="sidebar__item">
+            <a class="sidebar__link" href="#contact">
+                <span class="material-symbols-outlined">contact_phone</span>
+                <span class="sidebar__text">Contact</span>
+            </a>
+        </li>
 
-            <article>
-                <p>"Fast learner and consistent."</p>
-                <strong>- Team Lead</strong>
-            </article>
-            
-        </section>
-        <!-- hobbiess section -->
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Dancing</li>
-                <li>Swimming</li>
-                <li>Singing</li>
-            </ul>
-        </section>
-        <!-- contacts section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <fieldset>
-                    <legend>Send Message</legend>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br>
+    </ul>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br>
+    <div class="sidebar__copyright">
+        <p>&copy; Copyright Sagar Adhikari</p>
+    </div>
+</nav>
+        </header>
+        <main class="main">
+            <!-- home section -->
+            <section class="main__section" id="home">
+                <div class="main__info">
+                    <span class="main__contact">+977 9824056006</span>
+                    <span class="main__contact">sagaradhikari@gmail.com</span>
+                </div>
+                <h2>Sagar Adhikari</h2>
+                <p>I have been working since 2025. I am proficient in ui design & web development.</p>
+            </section>
+            <!-- about section -->
+            <section class="main__section" id="about">
+                <h2>About</h2>
+                <p><b><span>Frontend developer</span></b><br><br>Currently doing internship at Graphilla
+                    Technology(2026).I code and create web elements for amazing
+                    people around the world.<br> I like work with new people. New people new Experiences.</p>
+            </section>
+            <!-- address section -->
+            <section class="main__section" id="service">
+                <h2>Services</h2>
+                <address>
+                    <strong>Permanent address:</strong> <br>
+                    Bhadrapur-08, Jhapa
+                    <br>
+                    <strong>Current address:</strong><br>
+                    Damak-10,Jhapa
+                </address>
+            </section>
+            <!-- education section -->
+            <section class="main__section" id="portfolio">
+                <h2>Portfolio </h2>
+                <ul>
+                    <li><b>School:</b>S S Niketan Higher Seconday School, Bhadrapur Jhapa</li>
+                    <li><b>High School:</b>Emerald Academy, Bhadrapur Jhapa</li>
+                    <li><b>Campus:</b>Mechi Multiple Campus, Bhadrapur Jhapa(Running)</li>
+                </ul>
+            </section>
 
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea><br><br>
+            <!-- testimonials section -->
+            <section class="main__section" id="testimonials">
+                <h2>Testimonials</h2>
 
-                    <button type="submit">Submit</button>
-                </fieldset>
+                <article>
+                    <p>"Good understanding of HTML structure."</p>
+                    <strong>- Mentor</strong>
+                </article>
 
-            </form>
-        </section>
+                <article>
+                    <p>"Fast learner and consistent."</p>
+                    <strong>- Team Lead</strong>
+                </article>
 
-    </main>
-    <footer>
-        <p>&copy;Copyright sagar adhikari&nbsp;2026</p>
-    </footer>
+            </section>
+            <!-- projects section -->
+            <section class="main__section" id="blog">
+                <h2>Blogs</h2>
+                <article>
+                    <h3>Child Vaccination Management System</h3>
+                    <p>It is a web application that helps to manage the vaccination of children.</p>
+                </article>
+                <article>
+                    <h3>Online Food Delivery System</h3>
+                    <p>a web application that helps to manage the online food delivery system.</p>
+                </article>
+            </section>
+
+            <!-- contacts section -->
+            <section class="main__section" id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <fieldset>
+                        <legend>Send Message</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea><br><br>
+
+                        <button type="submit">Submit</button>
+                    </fieldset>
+
+                </form>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p>&copy;Copyright sagar adhikari&nbsp;2026</p>
+        </footer>
+    </div>
+
 
 </body>
 
