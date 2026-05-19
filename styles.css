@@ -1,27 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX+Guides&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     color: #ffffff;
-    background-color: #3c3852;
-    line-height: 1rem;
+    background-color: hsla(240, 8%, 12%, 1);
+    line-height: 1.6rem;
 
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 240px 1fr;
-    grid-template-areas: "sidebar main";
+
     min-height: 100vh;
 }
 
+.sidebar-main-container {
+    width: 240px;
+    background-color: #120f2d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    font-size: small;
+}
+
 .sidebar__image {
-    width: auto;
-    max-width: 200px;
+    width: 240px;
+    max-width: 240px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    
 }
 
 .sidebar__name {
@@ -66,18 +79,12 @@ body {
 
 
 
-.sidebar {
-    grid-area: sidebar;
-    background-color: #120f2d;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 100vh;
-    font-size: small;
+.main-wrapper {
+    margin-left: 240px;
+
+
 }
 
-.main {
-    grid-area: main;
-
+#home {
+    background-color: hsla(231, 40%, 14%, 1);
 }
