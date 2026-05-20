@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX+Guides&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
@@ -34,7 +36,7 @@ body {
     max-width: 240px;
     height: auto;
     display: block;
-    
+
 }
 
 .sidebar__name {
@@ -78,13 +80,162 @@ body {
 }
 
 
-
 .main-wrapper {
     margin-left: 240px;
+
 
 
 }
 
 #home {
     background-color: hsla(231, 40%, 14%, 1);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.main__info {
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    z-index: 5;
+}
+
+.contact__button {
+    background-color: hsla(44, 100%, 20%, 1);
+    color: #ffffff;
+    padding: 15px 30px !important;
+    top: 0;
+
+
+}
+
+.contact__button:hover {
+    background-color: #F9CA21;
+    padding: 15px 30px !important;
+    box-shadow: 0 0 12 #F9CA21, 0 0 24px hsla (44, 100%, 50%, 0.4);
+    border-radius: .6rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.main__contact {
+    margin-left: 2rem;
+}
+
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    gap: 2rem;
+    position: relative;
+
+
+}
+
+.hero__section h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.hero__section span {
+    color: hsla(44, 100%, 20%, 1);
+    z-index: 1;
+}
+
+.hero__section h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.hero__section p {
+    font-size: 1.2rem;
+    width: 400px;
+    z-index: 1;
+}
+
+.hero__section button {
+    width: 150px;
+    height: 45px;
+    background-color: hsla(44, 100%, 20%, 1);
+    color: #000000;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+
+.hero__section button:hover {
+    background-color: #F9CA21;
+    padding: 2px 20px;
+    box-shadow: 0 0 12 #F9CA21, 0 0 24px hsla (44, 100%, 50%, 0.4);
+    border-radius: .6rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero__image {
+
+    top: -5rem;
+    position: absolute;
+    right: 5rem;
+    z-index: 0;
+
+
+
+}
+
+.hero__image img {
+    width: 60rem;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.85;
+
+
+
+
+}
+
+.hero-social__icon {
+    position: absolute;
+    right: 6.5rem;
+    top: 0;
+}
+
+.hero-social__icon li {
+    list-style: none;
+    margin-bottom: 1.6rem;
+    
+}
+
+.hero-social__icon a {
+     color: #ffffff;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.hero-social__icon a:hover{
+    background-color: hsla(44, 100%, 20%, 1);
+    border-color: hsla(44, 100%, 20%, 1);
+    border-radius: 50%;
 }
