@@ -254,7 +254,7 @@ body {
     text-decoration: none;
 }
 
-.hero-social__icon a:hover{
+.hero-social__icon a:hover {
     background-color: hsla(44, 100%, 20%, 1);
     border-color: hsla(44, 100%, 20%, 1);
     border-radius: 50%;
@@ -322,4 +322,128 @@ body {
     padding: 1.5rem;
     box-shadow: 0px 0px 27.2px 4.8px rgba(1, 0, 7, 0.04);
     border-radius: 10px;
+}
+
+#resume {
+    background-color: rgb(228, 226, 226);
+    color: #222222;
+
+}
+
+.site-title {
+    margin-bottom: 5rem;
+    margin-top: -1rem;
+    padding-top: 5rem;
+
+
+}
+
+.resume-title {
+    font-size: 4rem;
+    line-height: 1.25;
+    color: #84858c;
+    font-weight: 600;
+}
+
+.word {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.333;
+}
+
+.expericence__area {
+    padding: 0 5rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.expericence__box {
+    background-color: #ffffff;
+    box-shadow: 0px 7px 27.84px 1.16px rgba(83, 83, 123, 0.968);
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+.exp__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp__icon i {
+    color: #faca22;
+    font-size: 2.5rem;
+} 
+
+.resume__skills-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    margin-top: 0px;
+}
+
+.progress-left,
+.progress-right {
+    padding-top: 90px;
+    padding-right: 25px;
+    text-align: start;
+
+}
+
+.progress-left h5,
+.progress-right h5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+}
+
+.progress .progress-bar {
+    background-color: #faca22;
+
+}
+
+
+.progress {
+    height: 0.5rem !important;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+}
+.download-cv-btn{
+
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    
+
+}
+
+.theme-btn {
+    padding: 1.7rem 2.6rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    background: #F9CA21;
+    transition: all ease .5s;
+    text-decoration: none;
+    color: #000000;
+}
+.theme-btn:hover {
+    color:#fff;
+    box-shadow: 0px 15px 20px 1.5px rgba(77, 65, 225, 0.15);
+    padding: 1.7rem 2.8rem;
+    letter-spacing: .1rem;
 }
