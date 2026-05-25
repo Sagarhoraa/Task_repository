@@ -609,3 +609,72 @@ body {
     font-size: 0.8rem;
     margin-right: 0.5rem;
 }
+
+/* hire me */
+.hire-title h2 {
+    font-size: 3rem;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+#hireme {
+    margin-top: 5rem;
+    min-height: 60vh;
+    background: url(/hire-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+.hireme__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.hireme__content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.video__btn {
+    display: inline-block; 
+    text-decoration: none;
+    background-color: #faca22;
+    color: #151931;
+    padding: 20px 20px;
+    border-radius: 50%;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.video__btn:hover {
+    transform: scale(1.05);
+    background: #faca22;
+    color: #fff;
+}
+.video__btn i {
+    font-size: 1.6rem;
+}
+
+
+.hire__btn {
+    display: inline-block; 
+    text-decoration: none;
+    padding: 15px 30px;
+    border:1px solid #faca22;
+    border-radius: 10px;
+    color: #faca22;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+.hire__btn:hover {
+    transform: scale(1.09);
+    background-color: #faca22;
+    color: #151931;
+}
