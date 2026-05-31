@@ -635,6 +635,7 @@ body {
     align-items: center;
     gap: 3rem;
 }
+
 .hireme__content {
     display: flex;
     align-items: center;
@@ -643,7 +644,7 @@ body {
 
 
 .video__btn {
-    display: inline-block; 
+    display: inline-block;
     text-decoration: none;
     background-color: #faca22;
     color: #151931;
@@ -658,23 +659,93 @@ body {
     background: #faca22;
     color: #fff;
 }
+
 .video__btn i {
     font-size: 1.6rem;
 }
 
 
 .hire__btn {
-    display: inline-block; 
+    display: inline-block;
     text-decoration: none;
     padding: 15px 30px;
-    border:1px solid #faca22;
+    border: 1px solid #faca22;
     border-radius: 10px;
     color: #faca22;
     transition: all 0.3s ease;
     background: transparent;
 }
+
 .hire__btn:hover {
     transform: scale(1.09);
     background-color: #faca22;
     color: #151931;
+}
+
+#faq {
+    margin-top: 5rem;
+}
+
+.faqtitle {
+    font-size: 4rem;
+    line-height: 1.25;
+    color: #84858c;
+    font-weight: 600;
+}
+
+.faqword {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #151931;
+}
+
+.accordion {
+    margin: 5rem;
+    padding: 0 5rem;
+}
+
+.accordion-item {
+    margin-bottom: 2.5rem;
+
+}
+
+.accordion-button {
+    background-color: #c2c3c7 !important;
+
+}
+
+/* portfolio starts */
+#portfolio {
+    background-color: #a2aab1;
+    color: #222222;
+    padding: 5rem;
+
+}
+
+.portfolio__title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #84858c;
+}
+
+.portfolio__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222222;
+}
+
+.portfolio__filter {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.filter__btn {
+    text-decoration: none;
+    color: #222222;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
 }
